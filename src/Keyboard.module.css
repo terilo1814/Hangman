@@ -1,0 +1,28 @@
+.btn {
+    width: 65%;
+    aspect-ratio: 1 / 1;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: .2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: rgba(73, 197, 176, 0.2) 0px 7px 29px 0px;
+    outline:none;
+    border: 1px solid rgb(136, 209, 228);
+    background: none;
+  }
+.btn.active{
+    background-color: hwb(175 9% 7%);
+    color: white;
+}
+  .btn.inactive{
+    opacity: .5;
+  }
+
+  .btn:hover:not(:disabled),
+  .btn:focus:not(:disabled) {
+    background-color: hsl(175, 81%, 49%);
+    color: white;
+    font-weight: 500;
+  }
